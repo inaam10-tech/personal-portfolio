@@ -36,8 +36,8 @@ const RecentProjects = () => {
           <SwiperSlide key={item.id}>
             <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] relative">
               <PinContainer
-                title="/ui.aceternity.com"
-                href="https://twitter.com/mannupaaji"
+                title={item.link}
+                href={item.link}
               >
                 <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                   <div
